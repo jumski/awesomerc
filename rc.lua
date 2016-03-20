@@ -246,5 +246,6 @@ client.add_signal("unfocus", function(c) c.border_color = beautiful.border_norma
 awful.util.spawn_with_shell('gnome-terminal')
 awful.util.spawn_with_shell('skype')
 awful.util.spawn_with_shell('pidgin')
+-- awful.util.spawn_with_shell('xrdb -merge ~/.Xresources')
 -- awful.util.spawn_with_shell('xrandr --output eDP1 --scale 0.5x0.5')
 -- }}}
