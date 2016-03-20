@@ -240,4 +240,9 @@ end)
 
 client.add_signal("focus", function(c) c.border_color = beautiful.border_focus end)
 client.add_signal("unfocus", function(c) c.border_color = beautiful.border_normal end)
+
+awful.util.spawn_with_shell('gnome-terminal')
+awful.util.spawn_with_shell('skype')
+awful.util.spawn_with_shell('pidgin')
+-- awful.util.spawn_with_shell('xrandr --output eDP1 --scale 0.5x0.5')
 -- }}}
